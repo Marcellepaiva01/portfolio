@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { HomePage } from '@/app/pages/home-page';
 import { CaseOrganizeiPage } from '@/app/pages/case-organizei-page';
 import { CaseDietaFinanceiraPage } from '@/app/pages/case-dieta-financeira-page';
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/case/sinalizacao-museu" element={<CaseSinalizacaoPage />} />
         <Route path="/case/embalagem-sacos-lixo" element={<CaseEmbalagemPage />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
