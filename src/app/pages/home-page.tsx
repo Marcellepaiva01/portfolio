@@ -23,6 +23,8 @@ export function HomePage() {
   const handleProjectClick = (projectId: string) => {
     if (projectId === 'essence-parfum') {
       navigate('/case/essence-parfum');
+    } else if (projectId === 'descomplica-ai') {
+      navigate('/case/descomplica-ai');
     } else if (projectId === 'organizei') {
       navigate('/case/organizei');
     } else if (projectId === 'dieta-financeira') {

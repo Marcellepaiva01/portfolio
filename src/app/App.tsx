@@ -6,6 +6,7 @@ import { CaseExploradorPage } from '@/app/pages/case-explorador-page';
 import { CaseSinalizacaoPage } from '@/app/pages/case-sinalizacao-page';
 import { CaseEmbalagemPage } from '@/app/pages/case-embalagem-page';
 import { CaseEssencePage } from '@/app/pages/case-essence-page';
+import { CaseDescomplicaPage } from '@/app/pages/case-descomplica-page';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/case/essence-parfum" element={<CaseEssencePage />} />
+        <Route path="/case/descomplica-ai" element={<CaseDescomplicaPage />} />
         <Route path="/case/organizei" element={<CaseOrganizeiPage />} />
         <Route path="/case/dieta-financeira" element={<CaseDietaFinanceiraPage />} />
         <Route path="/case/explorador-emocoes" element={<CaseExploradorPage />} />

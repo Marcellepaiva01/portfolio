@@ -1,6 +1,7 @@
 import { ArrowUpRight } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import imgOrganizeiCover from 'figma:asset/a87cdf34db2c3056b771a46ab92376cf40af8114.png';
+import imgDescomplicaCover from 'figma:asset/descomplica-ai-cover.png';
 import imgDietaFinanceiraCover from 'figma:asset/73843acdb27d2912eacb5c64fec5cd078c28b224.png';
 import imgExplorerCover from 'figma:asset/e57011a6f2ccc482ffc34151d97e1276a66f1434.png';
 import imgAVLCover from 'figma:asset/abff0f006a4ceec8a21e14765bfe7da5fa3ca892.png';
@@ -26,6 +27,15 @@ const projects: Project[] = [
     tags: ['Inteligência Artificial', 'UX/UI Design', 'Design System', 'Supabase', 'Vercel', 'Product Design'],
     image: imgEssenceCover,
     imageClassName: 'object-cover object-top'
+  },
+  {
+    id: 'descomplica-ai',
+    title: 'Descomplica.AI',
+    subtitle: 'Beyond Banking · Itaú + EBAC',
+    description: 'Educação financeira com IA responsável e assistente conversacional Airone',
+    tags: ['UX Research', 'UX/UI Design', 'IA Responsável', 'Beyond Banking', 'Product Design', 'Figma'],
+    image: imgDescomplicaCover,
+    imageClassName: 'object-cover object-center'
   },
   {
     id: 'organizei',
